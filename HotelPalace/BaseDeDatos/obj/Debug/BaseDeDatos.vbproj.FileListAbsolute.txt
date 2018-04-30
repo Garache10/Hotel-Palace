@@ -1,0 +1,13 @@
+C:\Users\josea\source\repos\HotelPalace\BaseDeDatos\bin\Debug\BaseDeDatos.dll
+C:\Users\josea\source\repos\HotelPalace\BaseDeDatos\bin\Debug\BaseDeDatos.pdb
+C:\Users\josea\source\repos\HotelPalace\BaseDeDatos\bin\Debug\BaseDeDatos.xml
+C:\Users\josea\source\repos\HotelPalace\BaseDeDatos\bin\Debug\MySql.Data.dll
+C:\Users\josea\source\repos\HotelPalace\BaseDeDatos\bin\Debug\MySql.Data.xml
+C:\Users\josea\source\repos\HotelPalace\BaseDeDatos\obj\Debug\BaseDeDatos.vbprojResolveAssemblyReference.cache
+C:\Users\josea\source\repos\HotelPalace\BaseDeDatos\obj\Debug\BaseDeDatos.Resources.resources
+C:\Users\josea\source\repos\HotelPalace\BaseDeDatos\obj\Debug\BaseDeDatos.vbproj.GenerateResource.cache
+C:\Users\josea\source\repos\HotelPalace\BaseDeDatos\obj\Debug\BaseDeDatos.vbproj.CoreCompileInputs.cache
+C:\Users\josea\source\repos\HotelPalace\BaseDeDatos\obj\Debug\BaseDeDatos.vbproj.CopyComplete
+C:\Users\josea\source\repos\HotelPalace\BaseDeDatos\obj\Debug\BaseDeDatos.dll
+C:\Users\josea\source\repos\HotelPalace\BaseDeDatos\obj\Debug\BaseDeDatos.xml
+C:\Users\josea\source\repos\HotelPalace\BaseDeDatos\obj\Debug\BaseDeDatos.pdb
