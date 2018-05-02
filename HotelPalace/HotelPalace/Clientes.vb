@@ -27,6 +27,7 @@ Public Class Clientes
         TextBox4.Text() = ""
         TextBox5.Text() = ""
         TextBox6.Text() = ""
+        TextBox7.Text() = ""
         ComboBox1.Text() = ""
     End Sub
 
@@ -45,17 +46,12 @@ Public Class Clientes
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Try
-            Dim consulta As String
-            consulta = "Select * from Cliente Where cedula_cliente = " + TextBox7.Text()
-            If Operaciones.Buscar(consulta) Then
-
-            Else
-                Label15.Text() = Nothing
-            End If
-        Catch ex As Exception
-            MsgBox(ex.Message)
-        End Try
+        Dim consulta, cedula As String
+        cedula = TextBox7.Text()
+        consulta = "Delete from Cliente Where cedula_cliente = '" + cedula + "';"
+        Operaciones.SaveData(consulta)
+        Button2_Click(sender, e)
+        Label10.Text() = "El cliente ha sido eliminado...!"
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click

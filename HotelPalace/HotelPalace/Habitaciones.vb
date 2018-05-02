@@ -35,4 +35,17 @@ Public Class Habitaciones
             MsgBox(ex.Message)
         End Try
     End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Habitaciones_Load(sender, e)
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Dim consulta, id As String
+        id = TextBox3.Text()
+        consulta = "Delete from habitacion Where id_habitacion = " + id + ";"
+        Operaciones.SaveData(consulta)
+        Button2_Click(sender, e)
+        Label6.Text() = "La habitación ha sido eliminada...!"
+    End Sub
 End Class

@@ -50,17 +50,29 @@ Partial Class Reservaciones
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Label13 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage2.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage3.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TabControl1
         '
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
+        Me.TabControl1.Controls.Add(Me.TabPage3)
+        Me.TabControl1.Controls.Add(Me.TabPage4)
         Me.TabControl1.Location = New System.Drawing.Point(0, 1)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
@@ -105,7 +117,7 @@ Partial Class Reservaciones
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(64, 203)
+        Me.Label11.Location = New System.Drawing.Point(36, 181)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(112, 18)
         Me.Label11.TabIndex = 25
@@ -113,7 +125,7 @@ Partial Class Reservaciones
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(206, 201)
+        Me.TextBox6.Location = New System.Drawing.Point(154, 181)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(163, 20)
         Me.TextBox6.TabIndex = 24
@@ -155,7 +167,7 @@ Partial Class Reservaciones
         '
         'DateTimePicker3
         '
-        Me.DateTimePicker3.Location = New System.Drawing.Point(189, 358)
+        Me.DateTimePicker3.Location = New System.Drawing.Point(154, 344)
         Me.DateTimePicker3.Name = "DateTimePicker3"
         Me.DateTimePicker3.Size = New System.Drawing.Size(206, 20)
         Me.DateTimePicker3.TabIndex = 19
@@ -164,7 +176,7 @@ Partial Class Reservaciones
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(57, 358)
+        Me.Label8.Location = New System.Drawing.Point(22, 344)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(126, 18)
         Me.Label8.TabIndex = 18
@@ -194,28 +206,28 @@ Partial Class Reservaciones
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(211, 136)
+        Me.ComboBox1.Location = New System.Drawing.Point(154, 120)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(158, 21)
         Me.ComboBox1.TabIndex = 14
         '
         'DateTimePicker2
         '
-        Me.DateTimePicker2.Location = New System.Drawing.Point(189, 303)
+        Me.DateTimePicker2.Location = New System.Drawing.Point(154, 290)
         Me.DateTimePicker2.Name = "DateTimePicker2"
         Me.DateTimePicker2.Size = New System.Drawing.Size(206, 20)
         Me.DateTimePicker2.TabIndex = 13
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(189, 251)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(154, 237)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(206, 20)
         Me.DateTimePicker1.TabIndex = 12
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(189, 77)
+        Me.TextBox1.Location = New System.Drawing.Point(154, 73)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(154, 20)
         Me.TextBox1.TabIndex = 11
@@ -264,7 +276,7 @@ Partial Class Reservaciones
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(57, 303)
+        Me.Label5.Location = New System.Drawing.Point(29, 290)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(119, 18)
         Me.Label5.TabIndex = 5
@@ -274,7 +286,7 @@ Partial Class Reservaciones
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(53, 251)
+        Me.Label4.Location = New System.Drawing.Point(18, 237)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(130, 18)
         Me.Label4.TabIndex = 4
@@ -284,7 +296,7 @@ Partial Class Reservaciones
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(59, 139)
+        Me.Label3.Location = New System.Drawing.Point(2, 123)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(146, 18)
         Me.Label3.TabIndex = 3
@@ -294,7 +306,7 @@ Partial Class Reservaciones
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(59, 77)
+        Me.Label2.Location = New System.Drawing.Point(24, 73)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(124, 18)
         Me.Label2.TabIndex = 2
@@ -312,6 +324,7 @@ Partial Class Reservaciones
         '
         'TabPage2
         '
+        Me.TabPage2.Controls.Add(Me.Button3)
         Me.TabPage2.Controls.Add(Me.DataGridView1)
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
@@ -326,8 +339,88 @@ Partial Class Reservaciones
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(34, 17)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(729, 376)
+        Me.DataGridView1.Size = New System.Drawing.Size(729, 351)
         Me.DataGridView1.TabIndex = 0
+        '
+        'TabPage3
+        '
+        Me.TabPage3.Controls.Add(Me.Label13)
+        Me.TabPage3.Controls.Add(Me.Button4)
+        Me.TabPage3.Controls.Add(Me.TextBox7)
+        Me.TabPage3.Controls.Add(Me.Label12)
+        Me.TabPage3.Controls.Add(Me.PictureBox2)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage3.Size = New System.Drawing.Size(791, 420)
+        Me.TabPage3.TabIndex = 2
+        Me.TabPage3.Text = "Eliminar reservación"
+        Me.TabPage3.UseVisualStyleBackColor = True
+        '
+        'TabPage4
+        '
+        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage4.Size = New System.Drawing.Size(791, 420)
+        Me.TabPage4.TabIndex = 3
+        Me.TabPage4.Text = "Modificar reservación"
+        Me.TabPage4.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(370, 385)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.TabIndex = 1
+        Me.Button3.Text = "Actualizar"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.HotelPalace.My.Resources.Resources.logo_OFICIAL
+        Me.PictureBox2.Location = New System.Drawing.Point(8, 6)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(320, 136)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(100, 172)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(142, 18)
+        Me.Label12.TabIndex = 1
+        Me.Label12.Text = "ID de la reservación:"
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Location = New System.Drawing.Point(248, 170)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(171, 20)
+        Me.TextBox7.TabIndex = 2
+        '
+        'Button4
+        '
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Location = New System.Drawing.Point(217, 224)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(88, 35)
+        Me.Button4.TabIndex = 3
+        Me.Button4.Text = "Eliminar"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(176, 329)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(0, 18)
+        Me.Label13.TabIndex = 4
         '
         'Reservaciones
         '
@@ -343,6 +436,9 @@ Partial Class Reservaciones
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage2.ResumeLayout(False)
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage3.ResumeLayout(False)
+        Me.TabPage3.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -375,4 +471,12 @@ Partial Class Reservaciones
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents Label10 As Label
     Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents Button3 As Button
+    Friend WithEvents TabPage3 As TabPage
+    Friend WithEvents TabPage4 As TabPage
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Button4 As Button
+    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents Label12 As Label
+    Friend WithEvents PictureBox2 As PictureBox
 End Class

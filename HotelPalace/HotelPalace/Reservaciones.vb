@@ -15,8 +15,9 @@ Public Class Reservaciones
         consulta = "Insert into reserva(id_reserva, tipo_reserva, cedula_cliente, id_empleado, id_oferta, id_habitacion, id_cancelacion) values(" + id_reserva + ", '" + tipo + "', '" + cedula + ", " + id_empleado + ", " + id_oferta + ", " + id_habitacion + ", " + id_cancelacion + ");"
         Operaciones.SaveData(consulta)
 
-        Label9.Text() = "La reservaciòn se guardò exitosamente..!"
+        Label9.Text() = "La reservaciòn se guardó exitosamente..!"
 
+        Cancelacion.Show()
         Button2_Click(sender, e)
     End Sub
 
@@ -42,5 +43,18 @@ Public Class Reservaciones
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Reservaciones_Load(sender, e)
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Dim consulta, reserva As String
+        reserva = TextBox7.Text()
+        consulta = "Delete from reserva Where id_reserva = " + reserva + ";"
+        Operaciones.SaveData(consulta)
+        Button2_Click(sender, e)
+        Label13.Text() = "La reservación ha sido eliminada...!"
     End Sub
 End Class

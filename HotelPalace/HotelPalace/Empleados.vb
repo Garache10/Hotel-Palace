@@ -41,4 +41,17 @@ Public Class Empleados
             MsgBox(ex.Message)
         End Try
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Dim consulta, id As String
+        id = TextBox6.Text()
+        consulta = "Delete from Empleado Where id_empleado = '" + id + "';"
+        Operaciones.SaveData(consulta)
+        Button2_Click(sender, e)
+        Label9.Text() = "El empleado ha sido eliminado...!"
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Empleados_Load(sender, e)
+    End Sub
 End Class
