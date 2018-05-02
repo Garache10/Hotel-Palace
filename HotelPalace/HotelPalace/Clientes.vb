@@ -17,7 +17,7 @@ Public Class Clientes
 
         Label8.Text() = "El cliente fue registrado..!"
 
-        Button2_Click(e, sender)
+        Button2_Click(sender, e)
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click

@@ -16,12 +16,7 @@ Public Class Empleados
 
         Label7.Text = "El empleado ha sido guardado..!"
 
-        TextBox1.Text = ""
-        TextBox2.Text = ""
-        TextBox3.Text = ""
-        TextBox4.Text = ""
-        TextBox5.Text = ""
-        ComboBox1.Text = ""
+        Button2_Click(sender, e)
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
