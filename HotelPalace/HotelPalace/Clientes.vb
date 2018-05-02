@@ -57,4 +57,8 @@ Public Class Clientes
             MsgBox(ex.Message)
         End Try
     End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Clientes_Load(sender, e)
+    End Sub
 End Class
